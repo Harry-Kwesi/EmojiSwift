@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517285512B22DD9700970527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517285502B22DD9700970527 /* LaunchScreen.storyboard */; };
 		51C084202B20AD0300BA80F2 /* EmojiLoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C0841F2B20AD0300BA80F2 /* EmojiLoverApp.swift */; };
 		51C084222B20AD0300BA80F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C084212B20AD0300BA80F2 /* ContentView.swift */; };
 		51C084242B20AD0500BA80F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C084232B20AD0500BA80F2 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		517285502B22DD9700970527 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C0841C2B20AD0300BA80F2 /* EmojiLover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiLover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C0841F2B20AD0300BA80F2 /* EmojiLoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLoverApp.swift; sourceTree = "<group>"; };
 		51C084212B20AD0300BA80F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		51C084132B20AD0300BA80F2 = {
 			isa = PBXGroup;
 			children = (
+				517285502B22DD9700970527 /* LaunchScreen.storyboard */,
 				51C0841E2B20AD0300BA80F2 /* EmojiLover */,
 				51C0842F2B20AD0500BA80F2 /* EmojiLoverTests */,
 				51C084392B20AD0500BA80F2 /* EmojiLoverUITests */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				517285512B22DD9700970527 /* LaunchScreen.storyboard in Resources */,
 				51C084272B20AD0500BA80F2 /* Preview Assets.xcassets in Resources */,
 				51C084242B20AD0500BA80F2 /* Assets.xcassets in Resources */,
 			);
@@ -436,9 +440,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mi.EmojiLover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,9 +471,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mi.EmojiLover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
